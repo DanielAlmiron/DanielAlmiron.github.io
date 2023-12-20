@@ -1,0 +1,863 @@
+<!doctype html> <html> <head>
+<!--
+███╗░░░███╗███████╗██████╗░██╗░█████╗░██╗░░░░░░█████╗░██████╗░ 
+████╗░████║██╔════╝██╔══██╗██║██╔══██╗██║░░░░░██╔══██╗██╔══██╗
+██╔████╔██║█████╗░░██║░░██║██║███████║██║░░░░░███████║██████╦╝
+██║╚██╔╝██║██╔══╝░░██║░░██║██║██╔══██║██║░░░░░██╔══██║██╔══██╗
+██║░╚═╝░██║███████╗██████╔╝██║██║░░██║███████╗██║░░██║██████╦╝
+╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░
+Hi there, curious developer!. 
+Interested in working with a growing company with a startup vibe. 
+Visit: aHR0cHM6Ly93d3cubWVkaWFsYWIubGEvbGV2ZXItc2l0ZS1vcGVuaW5ncwo=
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="//wa1.aminoapps.com/static/dist/js/main.6eaed38cd.js" as="script"/>
+ <title>Seraphine🎶 | Wiki | League of Legends en Español Amino</title>   <meta name="description" content="  Índice
+
+  ¿Quién es Seraphine?
+  Historia
+  Personalidad
+  Estadísticas
+  Habilidades
+  Skins
+  Ti"> <meta property="description" content="  Índice
+
+  ¿Quién es Seraphine?
+  Historia
+  Personalidad
+  Estadísticas
+  Habilidades
+  Skins
+  Ti"/> <meta property="og:description" content="  Índice
+
+  ¿Quién es Seraphine?
+  Historia
+  Personalidad
+  Estadísticas
+  Habilidades
+  Skins
+  Ti"/>   <meta name="keyword" content="Gamers,Comunidad,League,Guias,Legends,Lol,Español,Wild Rift,Valorant,Riot Games"/>  <meta property="og:title" content="Seraphine🎶 | Wiki | League of Legends en Español Amino"/> <meta property="og:site_name" content="League of Legends en Español | aminoapps.com"/>  <meta property="og:image" content="http://pm1.aminoapps.com/7712/85fca4d1d0c80512f709b3dfdaaa76fa1fd3f118r1-1920-1080v2_uhq.jpg"/> <meta property="twitter:image" content="http://pm1.aminoapps.com/7712/85fca4d1d0c80512f709b3dfdaaa76fa1fd3f118r1-1920-1080v2_uhq.jpg"/> <meta property="shareaholic:image" content="http://pm1.aminoapps.com/7712/85fca4d1d0c80512f709b3dfdaaa76fa1fd3f118r1-1920-1080v2_uhq.jpg"/>  <meta name="theme-color" content="hsla(209, 100%, 65%, 1.000000)"/>  
+    <link rel="shortcut icon" href="//wa1.aminoapps.com/static/img/favicon.ico?v=1">
+        <link rel="canonical" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ">
+ <meta name="apple-itunes-app" content="app-id=1115565187, app-argument=`narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98`"> <link rel="manifest" href="https://aminoapps.com/android-manifest.json?deeplink=narviiapp%3A//x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98">     <meta name="google-site-verification" content="G2Jidij179lrEgjO93rItrGLc2gnRoT7_HkXK0v8OgE" />
+    <!-- ANA SDK needs to be loaded before Carbon -->
+    <script async src="https://js.media-lab.ai/wana.3.2.0.js"></script>
+<script type='text/javascript'>
+    // window.ana_debug = true;
+
+    /**
+     * Returns the first child of an HTML element
+     * @param {Element} element
+     */
+    function getFirstChild(element) {
+        return element.children[0];
+    }
+
+    document.addEventListener('ANAReady', () => {
+        wanaLoad();
+    });
+
+    const wanaLoad = () => {
+        const gptOptions = {
+            enableSingleRequest: true,
+            sandboxIframe: true,
+            collapseEmptyDivs: false,
+            globalTargeting: {
+                'domain': window.location.hostname,
+                'youtube': 'n',
+            },
+        };
+
+        window.ANAWeb = new ANAWeb({ gptOptions });
+    }
+
+    /**
+     * Creates an Assembly ad slot
+     * @deprecated Use createAssemblyAdSlot instead.
+     * By passing an object as parameter instead of individual paramenters, you can
+     * easily extend, remove or change the parameters by adding, removing or changing
+     * new keys to the object.
+     */
+    const createSlot = (slotName, elementID, adUnitID, dimensions, refresh = false, maxWidth = undefined) => {
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill: false,
+            collapseIfNoFill: false,
+        });
+
+        window[slotName].refresh();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    /**
+     * Creates an Assembly ad slot.
+     * @see https://whisper.atlassian.net/wiki/spaces/ASTI/pages/4972118021/2.0.12#createSlot(slotType%2C-slotOptions)-BannerSlot
+     * @param { Object } options
+     * @param { string } options.slotName A reference of the slot created is stored under window with the slotName as key
+     * @param { string } options.elementID The ID of the HTML element the ad created will be placed
+     * @param { string } options.adUnitID The GAM ad unit id, eg: `/114106652/wshh_desktop_hp_btf_3`
+     * @param { number[][] } options.dimensions Array of arrays to map to supported sizes
+     * @param { boolean | undefined } options.refresh If true, the refresh function will be executed for the given slot
+     * @param { number | undefined } options.maxWidth ???
+     * @param { boolean | undefined } options.collapseBeforeFill If true the element will remain collapsed unless the ad fills
+     * @param { boolean | undefined } options.collapseIfNoFill If true the the element will collapse if the ad attempt does not fill
+     */
+    function createAssemblyAdSlot(options) {
+        const {
+            slotName,
+            elementID,
+            adUnitID,
+            dimensions,
+            refresh = false,
+            maxWidth = undefined,
+            collapseBeforeFill = false,
+            collapseIfNoFill = false,
+        } = options;
+
+        if (!slotName || typeof slotName !== "string") {
+            throw new Error('slotName (string) is required');
+        }
+
+        if (!elementID || typeof elementID !== "string") {
+            throw new Error('elementID (string) is required');
+        }
+
+        if (!adUnitID || typeof adUnitID !== "string") {
+            throw new Error('adUnitID (string) is required');
+        }
+
+        if (!dimensions || !Array.isArray(dimensions)) {
+            /** @TODO Probably we should do a better validation here */
+            throw new Error('dimensions (number[][]) is required');
+        }
+
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill,
+            collapseIfNoFill,
+        });
+
+        window[slotName].refresh();
+
+        //window.ANAWeb.refreshAllGoogleSlots();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    const createMobileSlots = () => {
+        var adBlockContainers = [...document.getElementsByClassName("ad-block-container-mobile")];
+        adBlockContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+
+            if (element.id === `slot-mobile-${index}`) {
+                return;
+            }
+
+            element.id = `slot-mobile-${index}`;
+            element.style.textAlign = 'center';
+
+            window.createSlot(`slotMobile${index}`, `slot-mobile-${index}`, '/114106652/amino_300x250_atf_mw', [[300, 250], [300, 600]]);
+        });
+    }
+
+    /**
+     * Create ad slots for ad containers between posts items in the Community feed.
+     */
+    function fillInBetweenPostsAdSlots() {
+        var slotContainers = [...document.getElementsByClassName("post-list-item--desktop-ad")];
+
+        slotContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+            const elementID = `slot-desktop-${index}`;
+
+            // If the slot is already created, skip it.
+            if (element.id === elementID) {
+                return;
+            }
+
+            element.id = elementID;
+            element.style.textAlign = "center";
+            const adUnitID = "/114106652/amino_desktop_728x90";
+            const adDimensions = [[728, 90], [970, 250], [970, 90], [960, 250], [300, 250]];
+
+            window.createAssemblyAdSlot({
+                slotName: `slotDesktop${index}`,
+                elementID,
+                adUnitID,
+                dimensions: adDimensions,
+                collapseBeforeFill: false,
+                collapseIfNoFill: false,
+                refresh: true,
+            });
+        })
+    }
+
+    window.createSlot = createSlot;
+    window.createAssemblyAdSlot = createAssemblyAdSlot;
+    window.createMobileSlots = createMobileSlots;
+    window.fillInBetweenPostsAdSlots = fillInBetweenPostsAdSlots;
+
+    const refreshInterval = (slotName, maxWidth) => {
+        window[`${slotName}Refresh`] = setInterval(() => {
+            if (maxWidth && window.innerWidth < maxWidth) {
+                return;
+            }
+
+            window[slotName].refresh();
+        }, 10000);
+    };
+
+    // Every debounce needs to have it's method because of overplapping
+    const scrollListener = (className, id) => window.addEventListener("scroll", () => {
+        if (id === 'slot-right-aside') {
+            return debounceInvokeRight(className, id);
+        }
+
+        debounceInvoke(className, id);
+    }, { passive: true });
+
+    const isInViewport = (element, topAdd = false) => {
+        const rect = element.getBoundingClientRect();
+
+        if (topAdd) {
+            return (rect.bottom >= 50);
+        }
+
+        return (
+            // header height is approx. 50px;
+            rect.top >= 50 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+    }
+
+    const debounce = (func, wait) => {
+        let timeout;
+
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    };
+
+    const debounceInvoke = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const debounceInvokeRight = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const runOnScroll = (className, id) => {
+        const elementsWithGivenClass = document.getElementsByClassName(className);
+
+        for (let i = 0; i < elementsWithGivenClass.length; i++) {
+            const element = elementsWithGivenClass[i];
+
+            if (isInViewport(element)) {
+                if (getFirstChild(element).id === id) {
+                    break;
+                }
+
+                let itemToMove;
+                let placeToMove;
+
+                [...elementsWithGivenClass].find((item, index) => {
+                    if (getFirstChild(item).id === id) {
+                        itemToMove = item;
+                        placeToMove = index;
+                    }
+                });
+
+                element.appendChild(getFirstChild(itemToMove));
+
+                itemToMove.appendChild(getFirstChild(element));
+
+                getFirstChild(element).style.display = "none";
+
+                if (id === 'slot-right-aside') {
+                    clearInterval(window.slotRightAsideRefresh);
+                    refreshInterval('slotRightAside', 1207);
+                    window.slotRightAside.refresh();
+                }
+
+                if (id === 'slot-banner') {
+                    window.slotBanner.refresh();
+                }
+            }
+        }
+    };
+
+    window.scrollListener = scrollListener;
+    window.isInViewport = isInViewport;
+</script>
+    <!-- Carbon Analytics -->
+<!-- From docs: For best results and full compatibility, we recommend that the tag is deployed as early as possible in the <head> of each page.
+-->
+
+<!-- Carbon Analytics -->
+<script>
+    !function(a,l,b,c,k,s,t,g,A){a.CustomerConnectAnalytics=k,a[k]=a[k]||function(){
+        (a[k].q=a[k].q||[]).push(arguments)},g=l.createElement(b),A=l.getElementsByTagName(b)[0],
+        g.type="text/javascript",g.async=!0,g.src=c+"?id="+s+"&parentId="+t,A.parentNode.insertBefore(g,A)
+    }(window,document,"script","//carbon-cdn.ccgateway.net/script","cca",window.location.hostname,"e8a16a4090");
+</script>
+<!-- END Carbon Analytics -->
+
+<!-- GAM Publisher Tag Setup -->
+<script>
+    document.addEventListener('ANAReady', () => {
+        !function(t, gt){
+            gt = t || {};
+            gt.cmd = t.cmd || [];
+            gt.cmd.push(function () {
+                if (gt.pubads().getTargeting('carbon_segment').length === 0) {
+                    var carbon = JSON.parse(window.localStorage.getItem('ccRealtimeData'));
+                    gt.pubads().setTargeting('carbon_segment', carbon ? carbon.audiences.map(function (i){ return i.id; }) : []);
+                }
+                if (gt.pubads().getTargeting('cc-iab-class-id').length === 0) {
+                    var iabIds = JSON.parse(window.localStorage.getItem('ccContextualData'));
+                    gt.pubads().setTargeting('cc-iab-class-id', iabIds);
+                }
+            });
+        }(window.googletag);
+    });
+</script>
+<!-- END GAM Publisher Tag Setup -->
+ <link rel="stylesheet" href="//wa1.aminoapps.com/static/dist/css/desktop-style.74dc4607d.css"> 
+
+          <script>
+            window.ServerData = window.ServerData || {};
+        </script>
+  <style type="text/css" class="custom">
+    body { --community-color: hsla(209, 100%, 78%, 1.000000); }
+    .community-bg { background-color: hsla(209, 100%, 78%, 1.000000); }
+    .community-color, .community-color:hover, .community-color:visited, .community-color:link, .community-color:active {
+        color: hsla(209, 100%, 78%, 1.000000); }
+    .community-bg-dark { background-color: hsla(209, 100%, 65%, 1.000000); }
+    .community-color-dark, .community-color-dark:hover, .community-color-dark:visited, .community-color-dark:link, .community-color-dark:active { color: hsla(209, 100%, 65%, 1.000000); }
+    *::selection { background: hsla(209, 100%, 78%, 1.000000); color: white; }
+
+        @media (min-width: 640px) { body { background-image: url(//pm1.aminoapps.com/7712/afba789f541809e8101d5072baaa7a90fddc3fd7r5-1080-1272_00.jpg); } }
+    </style>  <style>
+    @media (min-width: 1206px) {
+        section.global-body {
+            max-width: 1186px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 577px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1186px;
+        }
+
+        section.post-list.new-post-list>.list-item {
+            max-width: 280px;
+        }
+    }
+
+    @media (min-width: 1493px) {
+        section.global-body {
+            max-width: 1483px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 873px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1483px;
+        }
+    }
+</style>         <script type="application/ld+json">{"@context": "http://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Pink Dreamer", "url": "https://aminoapps.com/c/league-of-legends-en-espanol/page/user/pink-dreamer/g0qd_EoLCxfVYKzr5L12k2vDZ7MvqR8oXQr"}, "dateModified": "2020-10-19T02:40:35Z", "datePublished": "2020-10-19T02:40:35Z", "headline": "Seraphine\ud83c\udfb6", "image": {"@type": "ImageObject", "url": "http://pm1.aminoapps.com/7712/85fca4d1d0c80512f709b3dfdaaa76fa1fd3f118r1-1920-1080v2_uhq.jpg"}, "mainEntityOfPage": "https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ", "publisher": {"@type": "Organization", "logo": {"@type": "ImageObject", "height": 60, "url": "http://aminoapps.com/static/img/amino-logo-ld.png", "width": 179}, "name": "AminoApps", "url": "http://aminoapps.com"}}</script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+    _atrk_opts = { atrk_acct:"cTwYt1zDGU20kU", domain:"aminoapps.com",dynamic: true};
+    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script>
+
+    <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=cTwYt1zDGU20kU" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "22489583" });
+
+    (function () {
+        var s = document.createElement("script");
+        var el = document.getElementsByTagName("script")[0];
+
+        s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/22489583/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script> <noscript>
+    <img src=https://sb.scorecardresearch.com/p?c1=2&amp;c2=22489583&amp;cv=3.6.0&amp;cj=1>
+</noscript></head>
+<body class="mob_no_backtop  not-mobile "
+      data-vce="body"
+>
+<div id="top"></div>
+    <!-- This space will be replaced in v2/pages/home.html by a block with the same name -->
+
+<header class="global-header">
+    <div class="content community-bg">
+        <div class="container">
+ <nav class="global-nav "> <ul class="content">  <li class="nav-item nav-search"> <div class="nav-search-container global-dropdown-anchor " data-vce="search-btn" data-always-open="false"> <form class="search-input-container"> <input maxlength="50" autocomplete="false" class="nav-search-input" type="search" placeholder="Buscar Amino" value="" required /> <div class="clear-button"> <i class="amino-icon amino-icon-x"></i> </div> <span class="cancel-search">Cancelar</span> </form> <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" class="svg-icon amino-icon amino-icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(.8 .6)" fill-rule="evenodd"><path d="M9.902 17.457c-4.128 0-7.5-3.372-7.5-7.5 0-4.129 3.372-7.501 7.5-7.501 4.129 0 7.501 3.372 7.501 7.5 0 4.129-3.372 7.501-7.5 7.501zm7.799-1.43a9.883 9.883 0 0 0 2.13-6.124C19.832 4.453 15.38 0 9.903 0 4.425 0 0 4.452 0 9.903c0 5.45 4.452 9.902 9.902 9.902a9.998 9.998 0 0 0 6.125-2.132l5.963 5.963 1.7-1.7-5.99-5.908z"/></g></svg> <div class="global-dropdown-container search-dropdown-container amino-logo-animation"></div> </div> </li>  <li class="nav-item"> <a class="nav-link block" href="https://aminoapps.com/explore/" title="Explorar" data-refer-type="site_navbar_icon_explore" >  <svg width="25" height="25" class="explore-icon svg-icon amino-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="evenodd"><g transform="translate(.6 .8)"><path d="M12 21.666c-5.33 0-9.666-4.336-9.666-9.666S6.67 2.334 12 2.334 21.666 6.67 21.666 12 17.33 21.666 12 21.666m8.482-18.144l-.004-.004C18.182 1.25 15.171 0 12 0 5.383 0 0 5.383 0 12c0 3.171 1.25 6.182 3.522 8.482C5.818 22.75 8.829 24 12 24c3.17 0 6.182-1.25 8.482-3.522C22.75 18.182 24 15.171 24 12c0-3.17-1.25-6.182-3.518-8.478"/></g><path d="M13.4 14.4c-.897 0-1.6-.527-1.6-1.2 0-.673.703-1.2 1.6-1.2.897 0 1.6.527 1.6 1.2 0 .673-.703 1.2-1.6 1.2m6.197-6.99a.838.838 0 0 0-.967-.101l-7.287 3.697-4.23 6.391c-.175.286-.148.62.09.823.147.13.322.18.529.18a.743.743 0 0 0 .411-.102l7.314-3.697 4.23-6.368c.175-.282.148-.615-.09-.823"/></g></svg>  <span class="nav-text">Explorar</span> </a> </li>  <li class="nav-item nav-user less-margin">  <a class="nav-link block pointer" data-vce="btn-popup" data-popup="login" data-popup-close-by-overlay="1" data-popup-source="Top Nav" data-event-category="Sign In Popup" data-event-label="top_nav" data-tea-event="sign_in_popup" data-tea-source="Top Nav" > Inicia Sesión </a>  </li>  <li class="nav-item nav-download"> <a class="btn btn-download community-color" href="/get/amino/" data-event-category="NavBar Get App"> Obtener la App </a> </li>  </ul> </nav>            <div class="amino-logo-container">
+                <a class="amino-logo" href="https://aminoapps.com" data-refer-type="site_navbar_amino_logo">
+                        <img src="//wa1.aminoapps.com/static/img/amino-logo-white.svg?v=2" class="logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- This space will be replaced in v2/pages/home.html by a block with the same name -->
+
+
+
+<section class="global-body">
+        <div class="global-bg custom-bg container-fixed-bg  img"></div>
+ <section class="community-content"> <nav class="home-section-nav" data-vce="community-nav"> <div class="home-fixed-container"> <a class="home-nav-home community-color" href="/c/league-of-legends-en-espanol/home/" data-refer-type="community_nav_home" > <i class="amino-icon amino-icon-home"></i> </a> <ul class="unstyled content" data-vce="headroom" data-headroom-offset="200">  <li class="section-item  community-color "> <a class="block" href="/c/league-of-legends-en-espanol/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-star"></i> <span class="label">Destacado</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/league-of-legends-en-espanol/recent/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-clock"></i> <span class="label">Lo Último</span> </a> </li>  <li class="section-item  active community-bg "> <a class="block" href="/c/league-of-legends-en-espanol/wiki/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-favs"></i> <span class="label">Wiki</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/league-of-legends-en-espanol/polls/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-poll"></i> <span class="label">Encuestas</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/league-of-legends-en-espanol/quizzes/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-quiz"></i> <span class="label">Quizzes</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/league-of-legends-en-espanol/shared-folder/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-folder"></i> <span class="label">Carpeta Compartida</span> </a> </li>  <li class="section-item  community-color  hide-on-mobile"> <a class="block" href="/c/league-of-legends-en-espanol/info/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-info"></i> <span class="label">Acerca de</span> </a> </li>  <li class="section-item"></li> <li class="section-item"></li> </ul>  <a class="overflow-hint" href="javascript:void(0);" data-tea-event="community_nav_scroll" data-tea-type="Next" data-event-category="Community Nav Scroll" data-event-action="next"> <i class="amino-icon amino-icon-rightward community-color"></i> </a>  </div> </nav>   <section class="main-page content"> <div class="content" data-vce="next-page-loader" >  <div class="htec-main-post"> <div class="ad-block-banner-container" style="min-height: 90px;"> <section class="ad-block" style="width:728px; min-height:90px;"> </section> </div> <script type='text/javascript'>
+    document.getElementsByClassName("ad-block-banner-container")[0].children[0].id = 'slot-banner';
+
+
+    document.addEventListener('ANAReady', () => {
+        if (window.innerWidth > 1490) {
+            const adUnitID = '/114106652/amino_728x90_atf_desktop_1';
+            const adDimensions = [[728, 90], [970, 250], [970, 90], [960, 250], [300, 250]];
+            const elementID = 'slot-banner';
+            const slotName = 'slotBanner';
+
+            if (window[slotName]) {
+                return;
+            }
+
+            window.createAssemblyAdSlot({
+                slotName,
+                elementID,
+                adUnitID,
+                dimensions: adDimensions,
+                collapseBeforeFill: true,
+                collapseIfNoFill: true,
+                refresh: false,
+            });
+        }
+    });
+</script> <article class="post main-post hide-blocker " >  <header class="item-header">  <div class="jumbotron" data-vce="fade-image-switcher">  <img class="switch img-cover show" src=" http://pm1.aminoapps.com/7712/21bb7318f6e03ce8a39a921f82b56e3ec34493dfr1-262-343v2_00.jpg " alt="None"/>  </div>  <div class="title">  <div class="page-wiki-item">  <img class="item-card img-cover item-curated" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/21bb7318f6e03ce8a39a921f82b56e3ec34493dfr1-262-343v2_128.jpg"  > </div> <div class="overflow-hidden" data-vce="rich-content"> <h3 class="text">Seraphine :notes: </h3> <div class="authors">  <div class="avatars">  <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/user/pink-dreamer/g0qd_EoLCxfVYKzr5L12k2vDZ7MvqR8oXQr" class="block author"> <img class="avatar" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif"  > </a>  </div> <div class="overflow-hidden"> <div class="label">Contribuyente</div> <div class="names"> <a class="nickname" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/user/pink-dreamer/g0qd_EoLCxfVYKzr5L12k2vDZ7MvqR8oXQr" >  <span class="content">Pink Dreamer</span>  <i class="level-badge level-badge-17"></i>  </a>  </div> </div>  </div>  </div>   <section class="counters">  <div class="vote-counter pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ"   data-target-ndc-id="241051880" data-target-post-type="item" data-target-post-id="255857b9-be75-4e79-b0ea-f5e08004bd98" data-target-log-type="official favorite"  data-join-icons="" data-join-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-join-motivation="like" data-join-motivation-like="wiki" data-join-copytext="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ" data-login-motivation="Inicia sesión para dar un like a esta publicación." data-event-label="like_post" data-submit-event-label="live_comment" data-source="Like Post" > <i class="amino-icon amino-icon-heart-o"></i> <span class="num">37</span> </div>  <div class="comment-counter pointer" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" data-popup-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-popup-motivation="comment" data-popup-motivation-comment="wiki" data-popup-close-by-overlay="1" data-popup-tea-source="Comment Wiki Popup" data-event-category="Popup Join" data-event-action="comment" data-tea-event="download_popup" data-tea-source="Comment" > <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </section> </div> </header>  <section class="counters">  <div class="vote-counter pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ"   data-target-ndc-id="241051880" data-target-post-type="item" data-target-post-id="255857b9-be75-4e79-b0ea-f5e08004bd98" data-target-log-type="official favorite"  data-join-icons="" data-join-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-join-motivation="like" data-join-motivation-like="wiki" data-join-copytext="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ" data-login-motivation="Inicia sesión para dar un like a esta publicación." data-event-label="like_post" data-submit-event-label="live_comment" data-source="Like Post" > <i class="amino-icon amino-icon-heart-o"></i> <span class="num">37</span> </div>  <div class="comment-counter pointer" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" data-popup-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-popup-motivation="comment" data-popup-motivation-comment="wiki" data-popup-close-by-overlay="1" data-popup-tea-source="Comment Wiki Popup" data-event-category="Popup Join" data-event-action="comment" data-tea-event="download_popup" data-tea-source="Comment" > <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </section>   <section class="item-about"> <h3 class="label">Acerca de</h3> <div class="content"> <table data-vce="rich-content">  <tr> <td class="label">Apodo</td> <td class="value">La Cantante Soñadora</td> </tr>  <tr> <td class="label">Precio</td> <td class="value">7800 Esencia Azul o 975 RP</td> </tr>  <tr> <td class="label">Rol</td> <td class="value">Mago</td> </tr>  <tr> <td class="label">Calle</td> <td class="value">Central / Soporte</td> </tr>  </table> <hr> </div> </section>  <div class="post-full-content">   <section class="content rich-content article" data-vce="rich-content"> <div
+ class="post-content-toggle"  >  <p class="italic center bolder">Índice</p><p></p><p class="center">¿Quién es Seraphine?</p><p class="center">Historia</p><p class="center">Personalidad</p><p class="center">Estadísticas</p><p class="center">Habilidades</p><p class="center">Skins</p><p class="center">Tips</p><p class="center">Runas</p><p class="center">Opinión Personal</p><p></p><p class="center bolder">He tratado que este favorito sea lo más completo posible, si encontráis algún error o dato que falta avisadme.</p><p></p><p class="center"> :small_blue_diamond: = Sobre Seraphine fuera del juego.</p><p class="center"> :small_orange_diamond: = Sobre Seraphine en el juego.</p><p></p><p class="center bolder"> :small_blue_diamond: ¿Quién es Seraphine? :small_blue_diamond: </p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.25%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/85fca4d1d0c80512f709b3dfdaaa76fa1fd3f118r1-1920-1080v2_hq.jpg"  id="media-2ae00062" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center">Seraphine, de padres zaunitas, nació en Piltover, y es capaz de escuchar las almas de los demás. El mundo le canta, y ella le devuelve la canción. Aunque esos sonidos le resultaban abrumadores cuando era pequeña, ahora le sirven de inspiración, y transforma el caos en una sinfonía. Actúa para ambas ciudades con la intención de recordarles a sus ciudadanos que no están solos, que la unión hace la fuerza y que, a los ojos de Seraphine, su potencial es infinito.</p><p></p><p class="italic center bolder">"¡Esta va por tí!"</p><p></p><p class="italic center bolder"> :small_blue_diamond: Historia :small_blue_diamond: </p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.25%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/74f76d12ca91f63c4639604d305605a69b3a599br1-1280-720v2_hq.jpg"  id="media-be813d82" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="italic center">En Piltover, donde el sueño de uno puede convertirse en el progreso de todos, nace una estrella.</p><p></p><p class="italic center">De pequeña, a Seraphine le apasionaba la música, sobre todo las nanas de su padre. Eran canciones preciosas pero tristes. Su padre y su madre, originarios de Zaun, se habían mudado a Piltover, la Ciudad del Progreso, en busca de una vida mejor.</p><p></p><p class="italic center">Seraphine se asomaba por la ventana del taller de hexacústica de sus padres, donde la tecnología de sonido estropeada volvía a funcionar, y cantaba junto con las calles. Los cánticos de las Puertas del Sol, el silbido de los aprendices e incluso la melodía de las conversaciones... En una ciudad como Piltover, Seraphine nunca estaba sola.</p><p></p><p class="italic center">Con el tiempo, se dio cuenta de que podía sentir canciones demasiado privadas y personales que no oían las personas normales y corrientes. La intensidad de sus talentos creció con ella. Oía el alma de cada individuo, afectuosa o cruel, y esto convertía las calles que tanto había adorado en una abrumadora cacofonía de deseos opuestos. ¿Cómo iba a comprender las voces si no cantaban en armonía? Algunos días, se escondía en un rincón, temblando y tapándose los oídos, incapaz de escucharse a sí misma en medio de aquel caos.</p><p></p><p class="italic center">Los padres de Seraphine lo habían abandonado todo para que ella pudiera nacer en Piltover, así que se les partía el alma verla en ese estado. Utilizaron todos sus ahorros para comprar un fragmento de un cristal hextech inusual, con el que fabricaron un dispositivo que mitigaba su oído mágico. Así, la muchacha consiguió disfrutar del silencio por primera vez en años.</p><p></p><p class="italic center">Sin embargo, en ese silencio escuchó algo; a alguien, más bien. El cristal tenía consciencia, nacida de la sangre de brackern. Era una voz amable. En un himno de desiertos lejanos y antiguos conflictos de ancestros, miles de años de historia cantaban al unísono.</p><p></p><p class="italic center">Seraphine, asombrada, pidió que le mostrara el camino. Se sentía abrumada por los anhelos de su alrededor y le preocupaba no encontrar su canción. ¿Y si ella era tan solo las voces de los demás?</p><p></p><p class="italic center">—Todos nos labramos a través de las voces de otros —le respondió la voz en forma de canción.</p><p></p><p class="italic center">Y, lentamente, Seraphine aprendió a controlar el ruido. La voz la ayudó a comprender cómo entenderse con una multitud, cómo cantar con ellos, y cada vez dependía menos del amortiguador de sonido. La primera vez que actuó ante un público con la intención de probar sus habilidades, estaba hecha un flan. No obstante, siguió cantando, y la audiencia fue creciendo. No tardó en actuar en los recintos más grandes de Piltover, y sus fans hacían colas interminables para verla. A pesar de todo, sentía que faltaba algo, tanto en el público como en ella misma. Por lo tanto, tomó la decisión de buscar otro punto de vista en Zaun, la ciudad de la que venían sus padres y de la que tanto se habían esforzado por marcharse.</p><p></p><p class="italic center">Cuando se montó en el ascensor y descendió, Seraphine se sintió en casa y como una extraña a la vez. Allí oyó estribillos de resiliencia y ambición, igual que arriba, pero con un tamborileo de libertad único. A medida que pasaba más tiempo allí abajo, empezó a percibir otras cosas. Dolor. Miedo a los barones químicos que controlaban todas las oportunidades. Odio a los piltis pijos y arrogantes de arriba. Había una disonancia enorme. Empezó a actuar y a escuchar a este nuevo público; sus corazones entonaban sus dificultades. Las dos ciudades estaban divididas por algo más que un mero desacuerdo, y ella quería arreglar eso, quería unión. Sin embargo, escuchaba siempre el mismo estribillo: "En Zaun, las cosas no son fáciles".</p><p></p><p class="italic center">Empezó a sentir cada vez más que Piltover no era su hogar.</p><p></p><p class="italic center">La voz de su cristal hextech le había contado lo que podía suceder si se daba rienda suelta al odio. Seraphine no iba a permitir que eso le sucediera a las ciudades a las que adoraba. Convenció a sus padres para que la ayudaran. Desmontaron el amortiguador y reutilizaron el cristal para el fin contrario: una plataforma que, en lugar de silenciarlos, amplificara sus talentos, por lo que sería capaz de oír a los demás en toda su complejidad. Se llevó la plataforma como si de un escenario se tratase y se instaló en el Entresuelo, entre Piltover y Zaun. Entre la multitud y las luces deslumbrantes, oyó a los ciudadanos de ambos mundos, que se habían reunido para escucharla.</p><p></p><p class="italic center">Esta canción era nueva. No se trababa solo de comprensión, sino de unidad.</p><p></p><p class="italic center">No era perfecta, y quizá nunca lo sería, pero su voz importaba. De esta forma, Seraphine se dio cuenta de que quizá podría ayudar a los demás a encontrar también su voz.</p><p></p><p class="italic center">Seraphine se ha convertido en una superestrella tanto en Piltover como en Zaun. Con el poder de sus talentos y potenciada con hextech, amplifica las voces de aquellos con un atisbo de optimismo, porque, para ella, todo el mundo importa, sobre todo las personas que no las tienen todas consigo. La inspiran, y hará todo lo posible para inspirarlas a ellas.</p><p></p><p class="italic center bolder">"Habéis sido un público maravilloso, ¡gracias!"</p><p></p><p class="center bolder"> :small_blue_diamond: Personalidad :small_blue_diamond: </p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 125.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/10fa0b0e2af6b2002d5500ccc16990ea844f59e0r1-1080-1350v2_hq.jpg"  id="media-11561ed1" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center">Seraphine es una chica joven y alegre con una gran bondad en su interior. Es muy amigable y agradable, alegrando el ambiente solo con su presencia.</p><p></p><p class="center">Se esfuerza mucho en todo lo que hace, aunque muchas veces puede llegar a dudar de sí misma. Esto no hace que siempre quiera ayudar a la gente que la rodea y ponerles de buen humor con su canto.</p><p></p><p class="italic center bolder">"Podría haber sido peor... Podría haber, eh, ¡olvidado la letra!"</p><p></p><p class="center bolder"> :small_orange_diamond: Estadísticas :small_orange_diamond: </p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 133.333333333%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/d9c2a158fb5f13b40d376c4e3103ec07a17cee50r1-768-1024v2_hq.jpg"  id="media-b27b4932" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center bolder"> :sparkle: Vida :sparkle: </p><p class="center">500 (+80 por nivel)</p><p></p><p class="center bolder"> :sparkle: Regeneración de Vida :sparkle: </p><p class="center">6.5 (+0.6 por nivel)</p><p></p><p class="center bolder"> :sparkle: Maná :sparkle: </p><p class="center">440 (+40 por nivel)</p><p></p><p class="center bolder"> :sparkle: Regeneración de Maná :sparkle: </p><p class="center">10 (+1 por nivel)</p><p></p><p class="center bolder"> :sparkle: Daño de Ataque :sparkle: </p><p class="center">50 (+30 por nivel)</p><p></p><p class="center bolder"> :sparkle: Armadura :sparkle: </p><p class="center">19 (+3 por nivel)</p><p></p><p class="center bolder"> :sparkle: Velocidad de Ataque :sparkle: </p><p class="center"><a href="http://0.669" target="_blank" rel="nofollow noreferrer noopener">0.669</a> (+1% por nivel)</p><p></p><p class="center bolder"> :sparkle: Resistencia Mágica :sparkle: </p><p class="center">30 (+0.5 por nivel)</p><p></p><p class="center bolder"> :sparkle: Velocidad de movimiento :sparkle: </p><p class="center">325</p><p></p><p class="center bolder"> :sparkle: Rango :sparkle: </p><p class="center">525</p><p></p><p class="italic center bolder">"Vale Sera, no pasa nada, finge que es un ensayo"</p><p></p><p class="center bolder"> :small_orange_diamond: Habilidades :small_orange_diamond: </p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.25%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/501d8183981aab53be90452953893b95c15e285er1-1200-675v2_hq.jpg"  id="media-d5b92b80" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center bolder">Pasiva: Presencia escénica</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 100.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/4248617664c0cd581d576d129ad44eb753410d5cr1-512-512v2_hq.jpg"  id="media-de67ac91" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p></p><p class="italic center">Eco: Cada tercera habilidad básica que utilice Seraphine tendrá eco, por lo que la utilizará automáticamente una segunda vez tras <a href="http://0.033" target="_blank" rel="nofollow noreferrer noopener">0.033</a> segundos de haber lanzado la primera.</p><p></p><p class="italic center">Armonía: Cada vez que utilice una habilidad, Seraphine y los aliados cercanos recibirán una nota (Máximo 4 por campeón) que dura hasta un máximo de 6 segundos. Cada nota otorga más alcance a sus ataques básicos y hace que inflijan entre 5 a 20 (Basado en nivel) (+7.5% AP)  de daño mágico adicional, lo que consume la nota.</p><p></p><p class="italic center">Cada nota hace un 95% menos de daño que la anterior a objetivos que no sean súdbitos. Las notas hacen 200% de daño adicional + 15 a 60 (Basado en nivel) (+22.5% AP) de daño mágico a súdbitos.</p><p></p><p class="center bolder">Q: Nota alta</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 100.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/953622fb6a1c7aa91cc30615f3eb9cb0050e4c66r1-512-512v2_hq.jpg"  id="media-b90b8ab2" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p></p><p class="italic center">Coste: 65 / 70 / 75 / 80 / 85 de maná.</p><p class="italic center">Enfriamiento: 10 / <a href="http://8.75" target="_blank" rel="nofollow noreferrer noopener">8.75</a> / 7.5 / <a href="http://6.25" target="_blank" rel="nofollow noreferrer noopener">6.25</a> / 5 segundos.</p><p class="italic center">Daño: 55 / 65 / 75 / 85 / 95 (+ 60% AP).</p><p></p><p class="italic center">Seraphine proyecta una nota pura, lo que inflige daño mágico que aumenta entre 0%-50% de la vida faltante del objetivo.</p><p></p><p class="center bolder">W: Sonido envolvente.</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 100.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/83d9ee7e7b6209a73eaf6bcfbd12c06b0ea84e28r1-512-512v2_hq.jpg"  id="media-4cb160e8" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p></p><p class="italic center">Coste: 50 / 70 / 90 / 110 / 130 de maná.</p><p class="italic center">Enfriamiento: 26 / 25 / 24 / 23 / 22 segundos.</p><p class="italic center">Escudo: 60 / 75 / 90 / 105 / 120 (+ 40% AP).</p><p></p><p class="italic center">Seraphine envuelve a sus aliados con una canción, lo que les otorga a ella un 20% (+5% por cada 100 AP) y a sus aliados un 8% (+2% por cada 100 AP) de velocidad de movimiento adicional y un escudo por 2.5 segundos. Si Seraphine ya cuenta con un escudo, pueden curarse ella y los aliados cercanos un 5% (+ 1.5% per 100 AP) de la vida faltante por cada aliado (ACUMULABLE) tras finalizar el escudo.</p><p></p><p class="center bolder">E: Clímax musical</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 100.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/4f63b32b97543acd9cd49d2acf92fd6792fab55dr1-512-512v2_hq.jpg"  id="media-4de51cae" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p></p><p class="italic center">Coste: 60 / 70 / 80 / 90 / 100 de maná.</p><p class="italic center">Enfriamiento: 13 / 12 / 11 / 10 / 9 segundos.</p><p class="italic center">Daño: 60 / 85 / 110 / 135 / 160 (+ 45% AP) .</p><p class="italic center">Daño a minions: 60% / 70% / 80% / 90% / 100%</p><p></p><p class="italic center">Seraphine desata una gran onda de sonido, lo que inflige daño mágico a los enemigos en una línea y los ralentiza en un 99% por 1 segundo.</p><p class="italic center">Inmoviliza a los enemigos que ya estén ralentizados y aturde a los enemigos que ya estén inmovilizados o anclados.</p><p></p><p class="center bolder">R: Bis</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 100.0%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/43aa8fa79737623ad9517f0a856efab83a42109br1-512-512v2_hq.jpg"  id="media-55ff9717" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p></p><p class="italic center">Coste: 100 de maná.</p><p class="italic center">Enfriamiento: 160 / 140 / 120 segundos.</p><p class="italic center">Daño: 150 / 200 / 250 (+ 60% AP).</p><p></p><p class="italic center">Seraphine se apodera del escenario y proyecta una cautivadora fuerza que hechiza a los enemigos por <a href="http://1.25" target="_blank" rel="nofollow noreferrer noopener">1.25</a> / 1.5 / <a href="http://1.75" target="_blank" rel="nofollow noreferrer noopener">1.75</a> segundos e inflige daño mágico. Cualquier campeón golpeado (incluyendo los aliados) se convierte en parte de la actuación, lo que reinicia el alcance de la habilidad y otorga a los aliados golpeados el máximo de notas.</p><p></p><p class="italic center bolder">"Un público difícil. Puede que haya que cambiar de tono."</p><p></p><p class="center bolder"> :small_orange_diamond: Skins :small_orange_diamond: </p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><p class="center">Seraphine K/DA All Out - 3250 RP</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 58.9833479404%"><img class="post-img" data-vce="image"  src="//pm1.aminoapps.com/7712/03b64c0542da901656fc0af17af196a53a035355r1-1141-673v2_hq.jpg"  id="media-85469a6c" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><p class="center">Seraphine K/DA All Out - Indie</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 58.7890625%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/7e6df60d8fe0c032fdc51c28c9ce15e8db32c89br1-2048-1204v2_hq.jpg"  id="media-f416f282" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><p class="center">Seraphine K/DA All Out - Raising Star</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.25%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/6a764600aebd4da475ef6c592d5080d4df674e16r1-1200-675v2_hq.jpg"  id="media-62603851" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><p class="center">Seraphine K/DA All Out - Superstar</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.25%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/6456b75780a944dba66a72f97123493447bbbd12r1-2048-1152v2_hq.jpg"  id="media-8743c47d" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="italic center bolder">"En el escenario me siento completa... Quiero que todos se sientan así."</p><p></p><p class="center bolder"> :small_blue_diamond: Tips :small_blue_diamond: </p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 133.333333333%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/b76a64e10d4d8a04978ba64624d5be4830546505r1-1536-2048v2_hq.jpg"  id="media-79ae214d" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center">-Piensa siempre en qué habilidad quieres repetir con tu pasiva. Si quieres atrapar a los enemigos o escapar repite la E, si quieres hacer más daño repite la Q, y si quieres proteger a tí y a tus aliados usa la W. Todo depende de lo que veas necesario.</p><p></p><p class="center">-¡No te olvides de hacer daño con básicos constantemente! Pueden no parecer mucho, pero en una teamfight un básico cargado de Seraphine puede marcar diferencia.</p><p></p><p class="center">-Te recomiendo tener la pasiva (Eco) cargado cuando te desplaces. Nunca sabes cuando una inmobilización o una cura pueda salvarte la vida.</p><p></p><p class="center">-Seraphine, a pesar de parecer soporte, se desempeña mejor en mid debido a que su W no es muy potente y cuesta mucho maná a niveles bajos. Su wave clear es muy bueno al igual que su daño, así que pruebala en mid sin miedo.</p><p></p><p class="center">-Como puedes esperar, Seraphine es la estrella de las teamfights. Puede tornar la vuelta a una sin ningún problema gracias a su control de áreas y utilidad enorme.</p><p></p><p class="center">-Intenta siempre juntarte con el resto de aliados tras finalizar la fase de líneas, pues eres mucho más fuerte a su lado.</p><p></p><p class="italic center bolder">"No puede ser tan simple como unos contra otros. ¡Sé que si canto más alto escucharán!"</p><p></p><p class="center bolder"> :small_blue_diamond: Runas :small_blue_diamond: </p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 82.6171875%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7713/b9943957fbc6ee9dc2815750d4ee68721e77174fr1-1024-846v2_hq.jpg"  id="media-d57b75c9" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="italic center">Electrocutar es fácil de activar con Eco, haciendo mucho daño en poco tiempo con un pequeño combo. Pierdes utilidad, pero eso no importa cuando hay otros miembros del equipo que pueden aportarla. Si crees que necesitas más daño, electrocutar es la mejor opción.</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 89.0625%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7713/638711bc32482d8fbe5a12d2f6c2f3d7c4fea5d6r1-1024-912v2_hq.jpg"  id="media-fc4c09f3" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="italic center">Estas runas pueden funcionar tanto de mid como de support. Aery otorga mucho poke en early y utilidad más tarde en el juego. Con estas runas ganas tanto utilidad como daño de manera constante gracias al maná que va a ir recibiendo.</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 88.57421875%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7713/2ee14971b15857545f19992a8e525511a6b0bd6br1-1024-907v2_hq.jpg"  id="media-f7800065" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="italic center">El objetivo con Cometa Arcano no es mucho el poke en early, sino más daño en mid o late game sin perder utilidad. Gracias al largo rango y cc de Seraphine cometa arcano rara vez falla, siendo una muy buena opción.</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 88.18359375%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7713/20dbf18da80d5d39e33f1f8ab02d87888722982fr1-1024-903v2_hq.jpg"  id="media-dc2cbbfe" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="italic center">Estas runas están enfocadas a sacar el mayor provecho a la E. Al realentizar a un enemigo con aumento glacial puede usar el eco de la E para un aturdimiento fácil y seguir con sl resto del combo.</p><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="italic center bolder">"Los brackern alimentan nuestra ciudad, ¡Nuestro futuro! Debo cantar su elegía."</p><p></p><p class="center bolder"> :small_orange_diamond: Opinión Personal :small_orange_diamond: </p><p></p><p class="center bolder">•═════════ ※ ═════════•</p><div class="image-container"><div class="aspect-scale"  style="padding-top: 56.3235294118%"><img class="post-img" data-vce="image" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/7712/8448b5b2d84c0bcec335aa1721d643907e6d2e24r1-680-383v2_hq.jpg"  id="media-e851dde4" alt="Seraphine :notes: -[BIC] Índice
+
+[C] ¿Quién es Seraphine?
+[C] Historia
+[C] Personalidad
+[C] Estadísticas
+[C] Habilidades
+[C] Skins
+[C"></div></div><p class="center bolder">•═════════ ※ ═════════•</p><p></p><p class="center">Seraphine está probablemente al nivel de Zoe para mí. ¿Eso qué quiere decir? Pues que es junto al aspecto del crepúsculo mi campeona favorita de todo el juego. Es alegre, divertida y agradable, y su apariencia en general es la cereza del pastel.</p><p></p><p class="center">Tras probarla puedo decir que su kit es bastante único y divertido, y me encanta. Hay una opción para todas esas veces que falta un soporte de utilidad en el equipo, y una opción extremadamente divertida además. Mucha gente la crítica duramente, pero esa es la gente a la cual ella no iba dirigida en primer lugar. Voy a disfrutar jugándola al máximo, y tú deberías hacer lo mismo si te atrae su diseño. ¡A cantar!</p><p></p><p class="italic center bolder">"Tengo la sensación de añorar algo perdido... Algún día, ¡lo plasmaré en una canción!"</p>   </div> </section> </div>  <section class="item-gallery main-page-section"> <h3 class="title community-color">Galería </h3> <div class="content"> <div data-vce="lightbox-container"> <div data-vce="carousel" data-height="135" > <div class="community-bg arrow arrow-left"> <i class="fa fa-chevron-left"></i> </div> <div class="community-bg arrow arrow-right"> <i class="fa fa-chevron-right"></i> </div> <div class="scroll-container"><div class="carousel-item lightbox-thumb"><img class="img-cover full-wh" data-vce="carousel-img" data-src="//pm1.aminoapps.com/7712/21bb7318f6e03ce8a39a921f82b56e3ec34493dfr1-262-343v2_hq.jpg" id="media-50cf6b23" > <div class="lightbox-item" data-type="img" data-preview="//pm1.aminoapps.com/7712/21bb7318f6e03ce8a39a921f82b56e3ec34493dfr1-262-343v2_.jpg" data-src="//pm1.aminoapps.com/7712/21bb7318f6e03ce8a39a921f82b56e3ec34493dfr1-262-343v2_hq.jpg"></div></div></div> </div> </div> </div> </section>     <section class="share hide-phone" data-vce="call2action-interest-anchor"> <h3 class="label">Compartir a</h3> <ul class="unstyled share-icons with-color bubble">  <li class="item via-facebook"> <a href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt" class="block" data-event-category="Facebook share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Facebook" target="_blank"> <i class="fa-2x amino-icon amino-icon-f"></i> </a> </li>  <li class="item via-twitter"> <a href="//twitter.com/share?url=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt&text=Seraphine%F0%9F%8E%B6" data-event-category="Twitter share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Twitter" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-twitter"></i> </a> </li>  <li class="item via-tumblr"> <a href="//www.tumblr.com/share/link?url=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt&text=Seraphine%F0%9F%8E%B6" data-event-category="Tumblr share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Tumblr" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-t"></i> </a> </li>  <li class="item via-copylink"> <a class="block pointer with-tooltip" data-vce="clipboard" data-clipboard-text="http://aminoapps.com/p/2ttcgt" data-event-category="CopyLink" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Link" > <i class="fa-2x amino-icon amino-icon-link"></i> <span class="tooltip tooltip-top">Copiado</span> </a> </li> </ul> </section>  <div class="comment-like-share community-color collapse" data-vce="collapse-comment"> <div class="collapse-counter pointer" > <div class="vote-number counter-btn"> <i class="amino-icon amino-icon-heart"></i> <span> Likes (37) </span> </div> <div class="comment-number counter-btn"> <i class="amino-icon amino-icon-comment-splat"></i> <span> Comentarios (0) </span> </div> </div> <div class="pointer collapse-share collapse"> <i class="amino-icon amino-icon-share"></i> <i class="amino-icon amino-icon-x"></i> <section class="share" data-vce="call2action-interest-anchor"> <ul class="unstyled share-icons with-color bubble">  <li class="item via-facebook"> <a href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt" class="block" data-event-category="Facebook share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Facebook" target="_blank"> <i class="fa-2x amino-icon amino-icon-f"></i> </a> </li>  <li class="item via-twitter"> <a href="//twitter.com/share?url=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt&text=Seraphine%F0%9F%8E%B6" data-event-category="Twitter share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Twitter" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-twitter"></i> </a> </li>  <li class="item via-tumblr"> <a href="//www.tumblr.com/share/link?url=http%3A%2F%2Faminoapps.com%2Fp%2F2ttcgt&text=Seraphine%F0%9F%8E%B6" data-event-category="Tumblr share button" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Tumblr" class="block" target="_blank"> <i class="fa-2x amino-icon amino-icon-t"></i> </a> </li>  <li class="item via-copylink"> <a class="block pointer with-tooltip" data-vce="clipboard" data-clipboard-text="http://aminoapps.com/p/2ttcgt" data-event-category="CopyLink" data-tea-event="share_content" data-tea-source="Post Detail Share Bar" data-tea-selection-for-share="Link" > <i class="fa-2x amino-icon amino-icon-link"></i> <span class="tooltip tooltip-top">Copiado</span> </a> </li> </ul> </section> </div> </div>  <section class="blog-like main-page-section" id="like-member-list" data-vce="lazy-blog-like" data-votes-count="37" data-post-type="item" data-post-id="255857b9-be75-4e79-b0ea-f5e08004bd98" > <h3 class="title community-color">  Likes (37)  </h3>  <div class="pointer vote-counter" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ"   data-target-ndc-id="241051880" data-target-post-type="item" data-target-post-id="255857b9-be75-4e79-b0ea-f5e08004bd98" data-target-log-type="official favorite"  data-join-icons="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" data-join-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-join-motivation="like" data-join-motivation-like="wiki" data-join-copytext="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/seraphine/g0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ" data-source="Like Post" data-login-motivation="Inicia sesión para dar un like a esta publicación." data-event-label="like_post" data-submit-event-label="detail_page" > <i class="amino-icon amino-icon-heart-o"></i> <i class="amino-icon amino-icon-heart"></i> <span class="label">Like</span> <span class="num">37</span> </div>  <div class="content user-list loading"> <i class="fa fa-spin fa-spinner fa-2x"></i> <span class="vote-icon"> <i class="amino-icon amino-icon-heart"></i> </span> <span class="block more-votes"> <i class="amino-icon amino-icon-splat"></i> </span> </div> </section>  <a name="comment-list"></a> <section class="comment-list" data-vce="live-comment" data-live-comment-disabled="" data-target-ndc-id="241051880"  data-target-post-type="item" data-target-post-id="255857b9-be75-4e79-b0ea-f5e08004bd98" data-target-log-type="official favorite" > <h3 class="title community-color">  Comentar  </h3> <div class="content"  data-vce="comment-area">  <div class="load-comment-indicator"> <i class="fa fa-spin fa-circle-o-notch"></i> </div> <section class="comment-input-bar main" data-vce="comment-input-bar"  data-join-icons="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" data-join-deeplink="narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98" data-join-motivation="comment" data-join-motivation-comment="wiki" data-source="Comment New"  data-success-redirect data-event-label="comment_new" >  <img class="user-icon" src="//wa1.aminoapps.com/static/img/user-icon-placeholder.png"/>  <textarea name="content" placeholder="Di algo..." readonly maxlength="5000"></textarea> <button class="pointer btn btn-send community-bg" disabled> <i class="amino-icon amino-icon-send"></i> <i class="fa fa-spin fa-spinner"></i> </button> </section>   <div class="empty-padding"></div>   </div> <section class="live-comment"> <div class="content"> <div class="upper"> <ul class="comments unstyled"></ul> </div> <div class="pointer state-switch"> <span class="switch-on"> <i class="amino-icon amino-icon-show-comment"></i> </span> <span class="switch-off"> <i class="amino-icon amino-icon-hide-comment"></i> </span> </div>  <div class="comment-input-bar placeholder pointer"> <textarea name="content" readonly placeholder="Di algo..."></textarea> </div>  </div> </section> </section>   <section class="recommend-new show-not-pc">  <div class="recommend-item community-bg recommend-app" data-vce="rich-content">  <div class="backdrop-img"> <img data-vce="image" class="img-cover" data-src="//cm1.aminoapps.com/8856/37acbb94ff58ac92b34d3b1db94feb5f9dd9a5d9_375.jpg" alt="Community background image"/> </div>  <img class="img-cover" src="//cm1.aminoapps.com/8856/2a30c23286cd655773aa218eae8d5259c23304bb_120.jpg" alt="community logo"/> <p class="promotion">¿Te gusta League of Legends en Español?
+Únete a la comunidad.</p> <a class="btn community-color" href="/get/amino/" data-vce="deeplink" data-event-category="Download" data-event-label="wiki_endcap_download" data-tea-event="download_app" data-tea-source="Wiki Endcap Download" >Obtener Amino</a> </div> <article class="post recommend-item">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-f5ba4581" data-vce="image" decoding="async" id="media-f5ba4581" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="https://pa1.aminoapps.com/8855/3ccff3f642725649818c66ba48f8b8d26f5b26c5r1-1000-1000_128.gif"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-23/xpE5_qV4hQIxLPRXpvn8gbKa2EJ3zGmapmX"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-f5ba4581" data-vce="image" decoding="async" id="media-f5ba4581" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="https://pa1.aminoapps.com/8855/3ccff3f642725649818c66ba48f8b8d26f5b26c5r1-1000-1000_00.gif"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">0</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <small class="reason">  <i class="amino-icon amino-icon-wiki"></i> Wiki relacionado  </small> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-23/xpE5_qV4hQIxLPRXpvn8gbKa2EJ3zGmapmX" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">Periódico 23</h3> </a>  </div> </article> <article class="post recommend-item">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-0b3e909a" data-vce="image" decoding="async" id="media-0b3e909a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8826/ea2418170dc265e6a84deb3ea92315e8fd6d46d3r1-2000-2000v2_128.jpg"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/r/qkMd_NmYS3IWqmp8bRaDpKrooajEm4WogB"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-0b3e909a" data-vce="image" decoding="async" id="media-0b3e909a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8826/ea2418170dc265e6a84deb3ea92315e8fd6d46d3r1-2000-2000v2_00.jpg"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">1</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <small class="reason">  <i class="amino-icon amino-icon-wiki"></i> Wiki relacionado  </small> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/r/qkMd_NmYS3IWqmp8bRaDpKrooajEm4WogB" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">ᴷᵉʳᵒ</h3> </a>  </div> </article> <article class="post recommend-item">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-e07344c4" data-vce="image" decoding="async" id="media-e07344c4" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8825/885b02553953adc7d88e57ba719b572559858945r1-1536-1536v2_128.jpg"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-22/5BG7_4r2f5ILZL3VRL47bbqKXDqEPVKaDna"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-e07344c4" data-vce="image" decoding="async" id="media-e07344c4" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8825/885b02553953adc7d88e57ba719b572559858945r1-1536-1536v2_00.jpg"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">0</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <small class="reason">  <i class="amino-icon amino-icon-wiki"></i> Wiki relacionado  </small> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-22/5BG7_4r2f5ILZL3VRL47bbqKXDqEPVKaDna" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">Periódico #22</h3> </a>  </div> </article> <article class="post recommend-item">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-7153fbe4" data-vce="image" decoding="async" id="media-7153fbe4" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="https://pa1.aminoapps.com/8819/7199adb074f09490229d0c51b4a923ed8f31a411r5-572-1024_00.gif"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/hora-de-aventura-amino/o36d_oqXFoIBVeMrgmo3bb6nWJ70zKVZKn1"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-d7c6e425" data-vce="image" decoding="async" id="media-d7c6e425" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8819/2a16b537dcb441e8680f0270a89e2cb1f0b2a4eer1-512-512v2_00.jpg"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">6</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <small class="reason">  <i class="amino-icon amino-icon-wiki"></i> Wiki relacionado  </small> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/hora-de-aventura-amino/o36d_oqXFoIBVeMrgmo3bb6nWJ70zKVZKn1" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">• Hora de aventura amino •</h3> </a>  </div> </article>  </section>  </article>  </div>  <!--article.main-post-->   <section class="recommend hide-blocker" >  <div class="recommend-item community-bg recommend-app" data-vce="rich-content"> <p class="promotion">¿Te gusta League of Legends en Español?
+Únete a la comunidad.</p> <a class="btn community-color" href="/get/amino/" data-vce="deeplink" data-event-category="Download" data-event-label="wiki_endcap_download" >Obtener la App</a> </div> <article class="post recommend-item ">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-f5ba4581" data-vce="image" decoding="async" id="media-f5ba4581" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="https://pa1.aminoapps.com/8855/3ccff3f642725649818c66ba48f8b8d26f5b26c5r1-1000-1000_00.gif"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-23/xpE5_qV4hQIxLPRXpvn8gbKa2EJ3zGmapmX"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-f5ba4581" data-vce="image" decoding="async" id="media-f5ba4581" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="https://pa1.aminoapps.com/8855/3ccff3f642725649818c66ba48f8b8d26f5b26c5r1-1000-1000_00.gif"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">0</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <div class="reason">  Entrada Wiki Relacionada  </div> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-23/xpE5_qV4hQIxLPRXpvn8gbKa2EJ3zGmapmX" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">Periódico 23</h3> </a> <div class="pretty-date">hace 13 días</div> <section class="info">  <span class="pretty-date">hace 13 días</span>  </section> </div> </article> <article class="post recommend-item ">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-0b3e909a" data-vce="image" decoding="async" id="media-0b3e909a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8826/ea2418170dc265e6a84deb3ea92315e8fd6d46d3r1-2000-2000v2_00.jpg"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/r/qkMd_NmYS3IWqmp8bRaDpKrooajEm4WogB"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-0b3e909a" data-vce="image" decoding="async" id="media-0b3e909a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8826/ea2418170dc265e6a84deb3ea92315e8fd6d46d3r1-2000-2000v2_00.jpg"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">1</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <div class="reason">  Entrada Wiki Relacionada  </div> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/r/qkMd_NmYS3IWqmp8bRaDpKrooajEm4WogB" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">ᴷᵉʳᵒ</h3> </a> <div class="pretty-date">November 08</div> <section class="info">  <span class="pretty-date">November 08</span>  </section> </div> </article> <article class="post recommend-item ">  <div class="cover item"> <div class="cover-img loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-e07344c4" data-vce="image" decoding="async" id="media-e07344c4" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8825/885b02553953adc7d88e57ba719b572559858945r1-1536-1536v2_00.jpg"  >  </div> <a class="overlay block" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-22/5BG7_4r2f5ILZL3VRL47bbqKXDqEPVKaDna"  data-refer-type="page_endcap_related_item">  <img class="img-cover item-curated item-icon" alt="amino-System-e07344c4" data-vce="image" decoding="async" id="media-e07344c4" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8825/885b02553953adc7d88e57ba719b572559858945r1-1536-1536v2_00.jpg"  >  <div class="counters"> <div class="counter"> <i class="fa fa-heart"></i> <span class="num">0</span> </div> <div class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </div> </a> </div>  <div class="content" data-vce="rich-content"> <div class="reason">  Entrada Wiki Relacionada  </div> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/periodico-22/5BG7_4r2f5ILZL3VRL47bbqKXDqEPVKaDna" class="block" data-refer-type="page_endcap_related_item"  > <h3 class="title">Periódico #22</h3> </a> <div class="pretty-date">November 01</div> <section class="info">  <span class="pretty-date">November 01</span>  </section> </div> </article>  </section><!--/.recommend-->   <section class="next-post" data-href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/act-3/mo2d_Rnah0IxqpoEDRgnozLPEMq0dndYnPR"> <div class="content"> <i class="fa fa-spin fa-spinner fa-2x white"></i> <i class="fa fa-spin fa-spinner fa-2x community-color"></i> </div> </section>  </div> <script class="exclusion_list" type="text/plain">255857b9-be75-4e79-b0ea-f5e08004bd98</script> </section><!--/.main-content-->  <div class="live-member-list" data-vce="member-list" data-event-category="Popup Join" data-event-action="online_members" data-tea-event="download_popup" data-tea-source="Online Members" > <div class="content" data-vce="btn-popup" data-popup="join-community"  data-popup-motivation="online_members" data-popup-tea-source="Online Members Popup" data-popup-close-by-overlay="1" > <span class="avatars"></span> <span class="member-counter" data-vce="overflow-aware"></span> </div> </div> </section> <div class="community-livelayer-padding cloak"></div>  <aside class="community-sidebar" data-vce="sidebar-community" data-close-by-overlay="1"> <div class="content community-sidebar-container overflow-scroll-sidebar">  <section class="sidebar-card community-info sidebar-section user-canopy " data-vce="join-community"> <div class="sidebar-community-bg community-bg">  <img class="img-cover" src="//cm1.aminoapps.com/8856/37acbb94ff58ac92b34d3b1db94feb5f9dd9a5d9_375.jpg" alt="community background">  </div>  <div class="sidebar-profile-container"> <a class="block sidebar-community-info" href="https://aminoapps.com/c/league-of-legends-en-espanol/info/" data-refer-type="community_card" >  <div class="community-icon"> <img class="logo" src="//cm1.aminoapps.com/8856/2a30c23286cd655773aa218eae8d5259c23304bb_120.jpg"> </div> <div class="basic-info"> <h1 class="title font-montserrat-black" data-vce="rich-content">League of Legends en Español</h1> <div class="heat-gauge"> <div class="heat heat-6"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> </div> <div class="member-count">  185,219 Miembros  </div> </div> </a> <p class="tagline">Comunidad dedicada para aquellos que les guste &#34;League of Legends&#34;</p> <button class="btn full-width pointer community-bg" data-vce="btn-join-community" data-vce-name="direct_join" data-event-label="community_card" data-source="Card Join Now" data-event-category="Join" data-ndc-id="241051880" > Únete Ahora </button> <button class="btn button full-width pointer community-color pre-login-compose" data-vce="pre-login-btn" data-event-label="create_post" data-source="Card Create Post" data-true-form="user/compose-entry" data-success-redirect="" data-join-icons="//cm1.aminoapps.com/8856/2a30c23286cd655773aa218eae8d5259c23304bb_120.jpg" data-join-motivation="create-post" data-login-motivation="Inicia sesión para crear una publicación." data-event-category="Join" data-ndc-id="241051880" > Crear Blog </button> </div>  </section> <!-- Implement desktop_wana_left --> <div style= "display:flex; justify-content:center; align-items: center; width:300px; min-height:250px"> <section id="slot-left-aside" class="ad-block left" style="width:300px; min-height:250px;"></section> </div> <script type='text/javascript'>
+    document.addEventListener('ANAReady', () => {
+        if (window.slotLeftAside) {
+            return;
+        }
+
+        window.createSlot('slotLeftAside', 'slot-left-aside', '/114106652/amino_300x250_atf_desktop_2', [[300, 250]]);
+
+        window.ANAWeb.autoRefreshSlots([slotLeftAside], 15000, false)
+    });
+</script> </div>  <div class="content" data-vce-name="sidebar_content" data-vce="sticky"></div>  </aside>   <aside class="community-aside recommendation-sidebar"> <div class="content " data-vce="page-aside">  <section class="author-aside j-followee-number-container hide-blocker" >  <div class="info"> <a href="https://aminoapps.com/c/league-of-legends-en-espanol/page/user/pink-dreamer/g0qd_EoLCxfVYKzr5L12k2vDZ7MvqR8oXQr" class="block" data-refer-type="sidebar_author">  <img src="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" class="avatar" />  </a> <div class="overflow-hidden"> <a class="block nickname" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/user/pink-dreamer/g0qd_EoLCxfVYKzr5L12k2vDZ7MvqR8oXQr" data-vce="rich-content" data-refer-type="sidebar_author">  <span class="content">Pink Dreamer</span>  </a>  <div class="pretty-date"> Miembro desde Apr 2017 </div>  </div> </div> <div class="counters"> <div class="counter"> <div class="num">78613</div> <h5 class="label">Reputación</h5> </div> <div class="counter"> <div class="num">54</div> <h5 class="label">Siguiendo</h5> </div> <div class="counter"> <div class="num j-followee-number-target">1420</div> <h5 class="label">  Seguidores  </h5> </div> </div>   <a class="follow-btn pointer block"  data-login-motivation="Inicia sesión para seguir a Pink Dreamer." data-vce="pre-login-btn" data-true-form="user/follow-btn" data-join-icons="//pa1.aminoapps.com/7886/8f45e3cddc7c08b2d03c1eef3733af0e9e7699ddr1-100-100_128.gif" data-join-motivation="follow-pc" data-event-label="follow" data-source="Follow"  data-follow-event-label="author_card" data-followee="7ce02eb5-c230-495e-acea-40abfab1ccd4" data-follower="" > <span class="following"> <i class="follow-icon"></i> Siguiendo </span> <span class="friends"> <i class="follow-icon"></i> Amigos </span> <span class="stranger"> <i class="follow-icon fa fa-plus"></i> Seguir </span> <span class="unfollow"> Dejar de seguir </span> <i class="fa fa-circle-o-notch fa-spin"></i> </a>  </section> <!--/.author-aside-->  <div class="ad-block-container" style="display:flex; justify-content: center; align-items: center; width:300px; min-height:600px;"> <section class="ad-block" style="width:300px; min-height:250px;"> </section> </div> <script type='text/javascript'>
+    document.getElementsByClassName("ad-block-container")[0].children[0].id = 'slot-right-aside';
+
+    document.addEventListener('ANAReady', () => startWanaRight());
+
+    window.addEventListener("resize", () => startWanaRight());
+
+    const startWanaRight = () => {
+        if (window.innerWidth > 1206) {
+
+            if (window.slotRightAside) {
+                return;
+            }
+
+            window.createSlot('slotRightAside', 'slot-right-aside', '/114106652/amino_300x250_atf_desktop', [[300, 250], [300, 600]], true, 1207);
+            
+            if (true) {
+                window.scrollListener('ad-block-container', "slot-right-aside");
+            }
+        }
+    }
+
+
+</script>  <section class="sidebar-card chatroom-sidebar" data-vce="sidebar-chat-list"> <h3 class="label community-color"> <i class="amino-icon amino-icon-reload j-reload"></i> Salas de Chat Públicas </h3> <div class="chatroom-list-container simple-list"> </div> <div class="loading-overlay"> <i class="fa fa-spin fa-circle-o-notch community-color"></i> </div> </section>   <section class="popular"> <h3 class="label community-color with-margin">Entradas Wiki Relacionadas</h3> <section class="simple-list">   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/act-1/WJzN_MV1hVI7WXl8g24E2Ek33eRKv6Bo32E"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-ab0184cd" data-vce="image" decoding="async" id="media-ab0184cd" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8713/ef29c6044a950c1b018c9f65094b8638b0001da3r1-1080-1080v2_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-curated item-icon" alt="amino-System-ab0184cd" data-vce="image" decoding="async" id="media-ab0184cd" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8713/ef29c6044a950c1b018c9f65094b8638b0001da3r1-1080-1080v2_00.jpg"  >  <div class="remain overflow-hidden"> <h3 class="title">Act. 1</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">1</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </span> </div> </div> </div> </a> </article>   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/actividad-3/kw1d_jYBhQI7lnGM5K203ppqvPZ4mmp60Ke"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-059321f6" data-vce="image" decoding="async" id="media-059321f6" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8718/808359f88a14dbaf546e1ce080f9addcf9d5751cr5-904-1600_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-curated item-icon" alt="amino-System-68d23b38" data-vce="image" decoding="async" id="media-68d23b38" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8718/244f33ddf82c94445560cf672cb50e721ed1272cr1-2048-2048v2_00.jpg"  >  <div class="remain overflow-hidden"> <h3 class="title">Actividad 3</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">1</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </span> </div> </div> </div> </a> </article>   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/item/act-3/bNzY_3ovfnIBY3qvYXrP7YkPPRMnXq5gXRR"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-System-5ad6819a" data-vce="image" decoding="async" id="media-5ad6819a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8717/b875b6e2e5b557488267a6ce357a8cc8fc81e673r1-735-1039v2_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-curated item-icon" alt="amino-System-5ad6819a" data-vce="image" decoding="async" id="media-5ad6819a" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8717/b875b6e2e5b557488267a6ce357a8cc8fc81e673r1-735-1039v2_00.jpg"  >  <div class="remain overflow-hidden"> <h3 class="title">ACT 3 _</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">1</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </span> </div> </div> </div> </a> </article>  </section> <a href="/c/league-of-legends-en-espanol/wiki/" data-refer-type="sidebar_wiki_more" class="more linkblue block"> Ver más </a> </section> <!--/.popular-->    <section class="popular"> <h3 class="label community-color with-margin">Publicaciones Destacadas</h3> <section class="simple-list">   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-ᴹᵒᵏᵏᵃ The E𝐤𝐤𝐨 | Suport-476118c5" data-vce="image" decoding="async" id="media-476118c5" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8856/ae3cbfb452e6c07f7e06575588afa557d4b6a73er1-1080-1213v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/blog/concurso-por-orbe-miekkofesteja/xpE5_qV4h2uwDqD46WJboew7RovGQrK84W1"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> Concurso por Orbe | #MiEkkoFesteja </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">28</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">5</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-𝐌𝐁𝟏𝟗 / 𝐊𝐚𝐢𝐬𝐚𝐥𝐨𝐯𝐞𝐫-bf262ecb" data-vce="image" decoding="async" id="media-bf262ecb" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8865/aedf60744dbf92359b11b9b1c8cd541b5a77a994r1-851-471v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/blog/nuevas-skins-akshan-tres-honores-y-tryndamere-victorioso/eYzd_vwPC3uXVN8a4J6KYW1MeZ6QE1L3jJv"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> Nuevas skins! Akshan Tres Honores y Tryndamere Victorioso </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">23</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">3</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-Staff LoLA-5e025df0" data-vce="image" decoding="async" id="media-5e025df0" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8854/15beb03cd10c5f6b15863e4d16c60b6f83e57668r1-1376-720v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/blog/aldea-navidena/MQj7_oDYcku8aepgkDrZzGZdB7o56l3Nzr"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> 🏘 Aldea Navideña  :christmas_tree:  </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">47</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">4</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-𝐌𝐁𝟏𝟗 / 𝐊𝐚𝐢𝐬𝐚𝐥𝐨𝐯𝐞𝐫-c3bd4872" data-vce="image" decoding="async" id="media-c3bd4872" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8865/e88991ad975f6b07876191205f78a3b527741ed6r1-1920-1080v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/blog/atencion-lol-dejara-de-funcionar-en-windows-7-8-y-8-1-en-2024/lXbd_0noUQug2XjgLelb3mzgvoWWdepl1oM"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> ATENCIÓN!!! LoL dejará de funcionar en Windows 7, 8 y 8.1 en 2024! </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">18</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">6</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="amino-୨୧ㅤʾㅤㅤ꤫ㅤᥲq𝗎ιtᥲㅤ_ㅤ🎄ㅤᅣ ‌-4996b018" data-vce="image" decoding="async" id="media-4996b018" src="//wa1.aminoapps.com/static/img/lazy.png" data-src="//pm1.aminoapps.com/8868/fb749309ae5ac8d394230e279a239e4949a14508r1-736-450v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/league-of-legends-en-espanol/page/blog/adivina-el-personaje-winter-christmas/z6D5_mjlUxu0LM4GZQjpKvZeLXZKPbrMQ1L"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> ˖  :snowflake:  ᝬAdivina el personaje Winter/Christmas.♡ </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">2</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">1</span> </div> </footer> </a> </article>  </section> <a href="/c/league-of-legends-en-espanol/" class="more linkblue block" data-refer-type="sidebar_post_more"> Ver más </a> </section> <!--/.popular-->  </div> </aside>  <a id="call2action-interested" class="disp_none" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pm1.aminoapps.com/8855/ce76f43c903705a2d43140db558746cc1b24bff7r1-490-490v2_128.jpg" data-popup-motivation="proactive" data-popup-tea-source="Proactive Popup"  data-popup-close-by-overlay="1"  ></a> </section>
+
+
+
+<div class="modal" data-true-form="modal">
+    <div class="overlay"></div>
+    <div class="content"></div>
+    <div class="swipe-indicator swipe-indicator-left">
+        <i class="fa fa-arrow-circle-left fa-3x"></i>
+    </div>
+    <div class="swipe-indicator swipe-indicator-right">
+        <i class="fa fa-arrow-circle-right fa-3x"></i>
+    </div>
+</div>
+
+<div class="back-top">
+    <a class="content block pointer">
+        <i class="fa fa-arrow-up fa-2x"></i>
+    </a>
+</div>
+
+<div data-vce="toast">
+    <div class="content">
+    </div>
+</div>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap">
+<link rel="stylesheet" href="//wa1.aminoapps.com/static/dist/css/font-awesome.edabab9db.css">
+<script>
+var s = window.ServerData;
+s.eventLabel = 'page_v2.item.None';
+s.hostUrl = "https://aminoapps.com";
+s.serverName = "aminoapps.com";
+s.referType = "";
+s.facebookClientId = "255884441431980";
+s.googleClientId = "965888619343-p4j7tjogbsffi3u5l1tidk8jlb3s8idb.apps.googleusercontent.com";
+s.recaptchaKey = "6Ldl_kwUAAAAAB3HCpbAKU-rwUPXZaxeH7ADEOSC";
+s.recaptchaV3Key = "6LeVOtUnAAAAAA0i8EbnXP0P3Ss5FvhL1l799TfX";
+s.language = "es"
+s.assetURLPrefix = "//wa1.aminoapps.com/static"
+window._ = function (text) { return window._.dict[text] || text; };
+window._.dict = {"Are you sure you want to leave this Community?": "\u00bfEst\u00e1s seguro de que quieres dejar esta Comunidad?", "Copied": "Copiado", "Enjoy your experience in Amino Community? Get the app and join us!": "\u00bfEst\u00e1s disfrutando tu experiencia en esta Comunidad? \u00a1Descarga la aplicaci\u00f3n y \u00fanete!", "Exclusive Posts": "Publicaciones Exclusivas", "Fan Status": "Estado del Fan", "Flag for Review": "Reportar para su Revisi\u00f3n", "Get App": "Obtener la App", "Got any thoughts on my post?": "\u00bfTienes alguna idea sobre mi publicaci\u00f3n?", "Got it": "Entendido", "I\u0027d love to hear your voice! Get the Amino app!": "\u00a1Me encantar\u00eda escuchar tu voz! \u00a1Descarga la aplicaci\u00f3n de Amino!", "Interested in my post? Join this Community and let\u0027s talk!": "\u00bfInteresado en mi publicaci\u00f3n? \u00danete a esta Comunidad y hablemos!", "Join": "Unirse", "Join Now": "\u00danete Ahora", "Join this Community and leave a comment!": "\u00a1\u00danete a esta Comunidad y deja un comentario!", "Join this Community and let\u0027s talk!": "\u00a1\u00danete a esta Comunidad y hablemos!", "Join this Community to hang out with all of us [community_name] members": "\u00a1\u00danete a esta Comunidad para pasar el rato con todos nosotros miembros de [community_name]", "Join this Community to read my full comment!": "\u00a1\u00danete a esta Comunidad para leer mi comentario completo!", "Join this Community to see all our comments!": "\u00a1\u00danete a esta Comunidad para ver todos nuestros comentarios!", "Keep up with members you follow in this Community": "Mantente al d\u00eda con los miembros que sigues en esta Comunidad", "Let\u0027s talk about it on Amino.": "Hablemos sobre esto en Amino.", "Loading": "Cargando", "Member Chats": "Chats de los Miembros", "Oh, you like my comment?": "\u00bfOh, te gusta mi comentario?", "Oh, you like my post?": "\u00bfOh, te gusta mi publicaci\u00f3n?", "Oh, you like my wiki?": "\u00bfOh, te gusta mi wiki?", "Only members of this Community have the right to vote.": "Solamente los miembros de esta Comunidad tienen derecho a votar.", "Open in App": "Abrir en la Aplicaci\u00f3n", "Put it somewhere people will see it.": "Col\u00f3calo en alguna parte donde las personas lo ver\u00e1n.", "Reply to:": "Responde a:", "Share this post": "Compartir esta publicaci\u00f3n", "Sign in to join this Community.": "Inicia sesi\u00f3n para unirte a esta Comunidad.", "Sign in to leave a comment.": "Inicia sesi\u00f3n para dejar un comentario.", "Sign in to read more replies.": "Inicia sesi\u00f3n para leer m\u00e1s respuestas.", "Sign in to read the whole comment.": "Inicia sesi\u00f3n para leer todo el comentario.", "Sign in to see all comments.": "Inicia sesi\u00f3n para ver todos los comentarios.", "Something to say?": "\u00bfTienes algo que decir?", "Something to share? Join this Community to create a post.": "\u00bfTienes algo que compartir? \u00danete a esta Comunidad para crear una publicaci\u00f3n.", "There\u0027s all sorts of good stuff happening in this fan club.": "Hay todo tipo cosas buenas sucediendo en este club de fans.", "This Community is full of great stuff. Get the app to see it all.": "Esta Comunidad est\u00e1 llena de cosas geniales. Descarga la aplicaci\u00f3n para ver todo.", "This Fan Club is closed.": "Este Fan Club est\u00e1 cerrado.", "This chat is for Community members only.": "Este chat es solo para miembros de la Comunidad.", "Yes": "Si", "You can only comment if you join this Community.": "Solamente puedes comentar si te unes a esta Comunidad.", "You can only follow me if you get the Amino app. Do it do it do it.": "Solamente puedes seguirme si descargas la app de Amino. Hazlo, hazlo.", "You can only follow me if you join this Community.": "Solo puedes seguirme si te unes a esta Comunidad.", "You can only join my fan club on the Amino app. Do it do it.": "Solamente te puedes unir a mi fan club en la aplicaci\u00f3n de Amino. Hazlo, hazlo.", "You can renew your subscription on the Amino app.": "Puedes renovar tu suscripci\u00f3n en la aplicaci\u00f3n de Amino.", "You need to get the Amino app to join my Community. See you there!": "Tienes que descargar la aplicaci\u00f3n de Amino para unirte a mi Comunidad. \u00a1Nos vemos all\u00ed!", "You need to get the Amino app to start chating with us.": "Necesitas tener la aplicaci\u00f3n Amino para empezar a chatear con nosotros.", "You need to join this Community first!": "\u00a1Primero tienes que unirte a esta Comunidad!", "You need to join this Community to start chatting with us.": "Tienes que unirte a esta Comunidad para comenzar a chatear con nosotros.", "[member_count] member online": "[member_count] miembro en l\u00ednea", "[member_count] members online": "[member_count] miembros en l\u00ednea", "[nickname] is now online": "[nickname] est\u00e1 en l\u00ednea", "[nickname] just joined": "[nickname] acaba de unirse"};
+s.isLogin = false;
+s.isMember = false;
+</script>
+
+<script>
+    ServerData.deeplink = "narviiapp://x241051880/item/255857b9-be75-4e79-b0ea-f5e08004bd98";
+    ServerData.community = {"Android": "https://aminoapps.com/jump/store?id=com.narvii.amino.master", "color": [158, 208, 255, 1.0], "deeplink": "narviiapp://x241051880/description", "endpoint": "league-of-legends-en-espanol", "iOS": "/jump/store?target=ios", "isPrivate": false, "linkDownload": "/c/league-of-legends-en-espanol/download/", "logo": "//cm1.aminoapps.com/8856/2a30c23286cd655773aa218eae8d5259c23304bb_120.jpg", "membersCount": 185219, "name": "League of Legends en Espa\u00f1ol", "ndcId": "x241051880", "tagline": "Comunidad dedicada para aquellos que les guste \"League of Legends\""};
+    ServerData.experiments = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60"};
+        ServerData.members = null;
+        ServerData.community.listedStatus = 2
+        ServerData.community.templateId = 3
+</script> 
+<!-- Google and TEA Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31833046-14"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-31833046-14');
+</script> <script class="ga_variables">        ga('set', 'dimension2', "page_v2?amino_id=league-of-legends-en-espanol\u0026page_type=page\u0026slug=item%2Fseraphine%2Fg0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ");
+        ga('sampling.set', 'dimension2', "page_v2?amino_id=league-of-legends-en-espanol\u0026page_type=page\u0026slug=item%2Fseraphine%2Fg0qd_EoLCKIna2Rzq2kZRVgBzNXo366NdJ");
+        ga('set', 'dimension3', "2020-10-19T02:40:35Z");
+        ga('sampling.set', 'dimension3', "2020-10-19T02:40:35Z");
+    ga('set', 'dimension5', 'page_v2.item.None');
+    ga('sampling.set', 'dimension5', 'page_v2.item.None');
+    ga('set', 'dimension7', "");
+    ga('sampling.set', 'dimension7', "");
+    ga('set', 'dimension9', false);
+    ga('sampling.set', 'dimension9', false);
+</script> <script async src="https://s0.ipstatp.com/static_magic/pgc/tech/collect/collect-v.3.1.32.js"></script> <script>
+(function(window, document, export_obj) {
+    var win = window;
+    win['TeaAnalyticsObject'] = export_obj;
+    if (!win[export_obj]) {
+        function _collect() { _collect.q.push(arguments); return _collect; }
+        _collect.q = _collect.q || [];
+        win[export_obj] = _collect;
+    }
+    window[export_obj].l = +new Date();
+})(window, document, 'collectEvent');
+window.collectEvent('init', { app_id: 151083, channel: 'va' });
+var tea_config = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60", "app_name": "amino", "client_type": "Web", "disable_auto_pv": true, "evtParams": {"app_type": "Web", "community_id": 241051880}, "installed_web": "True", "login_status": "False", "referer": "https://www.google.com/", "referer_host": "www.google.com", "user_unique_id": ""};
+tea_config.evtParams.page_source = ServerData.eventLabel;
+window.collectEvent('config', tea_config);
+window.collectTEA = function(evt, obj) { obj = obj || {}; window.collectEvent(evt, obj); };
+window.collectEvent('send');
+window.collectEvent('predefinePageView', { refer_type: "" });
+function sendPageView() {
+    ga('set', 'location', location.href);
+    ga('sampling.set', 'location', location.href);
+    ga('send', 'pageview');
+    ga('sampling.send', 'pageview');
+}
+sendPageView();
+</script> 
+<script src="//wa1.aminoapps.com/static/dist/js/main.6eaed38cd.js"></script>
+<div id="gdpr-cookie-consent"> <h3>Política de Cookies </h3> <p>  This website saves cookies to your browser in order to improve your online experience and show you personalized content. Read our <a class="link" href="http://aminoapps.com/privacy" target="_blank">Privacy Policy</a> and <a class="link" href="https://support.aminoapps.com/hc/en-us/articles/360004040313-Does-Amino-use-cookies-on-its-website-" target="_blank">Cookie Policy</a> to get more information and learn how to set up your preferences. </p> <button class="confirm-close" onclick="closeGDPRCookie()">Aceptar</button> </div> <script>
+function closeGDPRCookie() {
+    document.cookie = 'gdpr_cookie_agreee=1;max-age=31536000;path=/';
+    var consent = document.querySelector('#gdpr-cookie-consent');
+    consent.parentNode.removeChild(consent);
+}
+</script> <style>
+#gdpr-cookie-consent {
+    position: fixed;
+    padding: 14px;
+    font-size: 13px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    bottom: 8px;
+    right: 87px;
+    max-width: 410px;
+    color: #1a1a1a;
+    z-index: 5005;
+    /*1145141919810;
+    $z-global-modal: 5010;
+    */
+}
+#gdpr-cookie-consent > h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+#gdpr-cookie-consent .close {
+    float: right;
+    color: #bdbdbd;
+    font-size: 20px;
+    line-height: 16px;
+}
+#gdpr-cookie-consent .link {
+    color: #0F86FF;
+}
+#gdpr-cookie-consent > p {
+    margin: 0;
+    margin-top: 8px;
+    line-height: 15px;
+}
+#gdpr-cookie-consent > .confirm-close {
+    background: none;
+    border: 1px solid #979797;
+    outline: none;
+    border-radius: 8px;
+    float: right;
+    padding: 8px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.not-mobile #gdpr-cookie-consent > .confirm-close:hover {
+    background: #f1f1f1;
+}
+@media (max-width: 640px) {
+#gdpr-cookie-consent {
+    left: 0;
+    right: -1px;
+    bottom: 50px;
+    border-radius: 0;
+    max-width: none;
+}
+}
+</style> 
+</body>
+<footer>
+  <!-- Quantcast Tag --> <script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    _qevents.push({
+    qacct: "p-3bDtRer0SSNWT",
+    uid: "ops@medialab.la"
+    });
+</script> <noscript>
+    <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-3bDtRer0SSNWT.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript> <!-- The core Firebase JS SDK is always required and must be listed first --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script> <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script> <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDUbgzJwO1Fd5oawjcV3x8HkWGHET-Ky8Q",
+    authDomain: "golden-shine-845.firebaseapp.com",
+    databaseURL: "https://golden-shine-845.firebaseio.com",
+    projectId: "golden-shine-845",
+    storageBucket: "golden-shine-845.appspot.com",
+    messagingSenderId: "641940763521",
+    appId: "1:641940763521:web:26ac22ae145b37182d6e80",
+    measurementId: "G-9SJ4LCCH1X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script> </footer>
+</html>
